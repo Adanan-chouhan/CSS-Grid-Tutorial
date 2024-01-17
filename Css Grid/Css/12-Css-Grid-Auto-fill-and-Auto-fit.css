@@ -1,0 +1,25 @@
+.containr{
+    display: grid;
+    background: blanchedalmond;
+    font-size: 30px;
+    width:80%;
+    margin: 30px;
+    grid-template-columns:repeat(Auto-fill,minmax(150px,1fr));
+    grid-template-rows:repeat(2,100px);
+
+    grid-auto-rows: 50px;
+
+    
+}
+.One{
+   background: green; 
+}
+.Two{
+   background:pink;
+}
+.Three{
+   background : darkseagreen;  
+}
+.Four{
+   background: darkslategray;
+}

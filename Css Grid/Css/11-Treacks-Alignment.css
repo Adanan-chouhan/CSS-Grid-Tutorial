@@ -1,0 +1,43 @@
+.containr{
+    display: grid;
+    background: blanchedalmond;
+    font-size: 30px;
+    width:700px;
+    height: 700px;
+    margin: 30px;
+    grid-template-columns:repeat(2,150) ;
+    grid-template-rows:repeat(2,100px);
+    grid-gap: 10px;
+
+    grid-auto-rows: 50px;
+    justify-content:space-evenly;
+    align-content: center;
+}
+.One{
+   background: green; 
+}
+.Two{
+   background:pink;
+}
+.Three{
+   background : darkseagreen;  
+   grid-row: span 2; 
+    
+}
+.Four{
+   background: darkslategray;
+}
+.Five{
+  background: aqua;
+
+}
+.Six{
+    background: red;
+}
+.Sevan{
+    background:blueviolet;
+    grid-column: span 2;
+}
+.Eight{
+    background: orangered;
+}

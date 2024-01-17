@@ -1,0 +1,26 @@
+.containr{
+    display: grid;
+    background: blanchedalmond;
+    font-size: 30px;
+    width:500px;
+    margin: 30px;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(2,120px);
+
+}
+.One{
+   background: green; 
+   order:2;
+}
+.Two{
+   background:pink;
+   order: 3;
+}
+.Three{
+   background : darkseagreen;  
+   order: 4;
+}
+.Four{
+   background: darkslategray;
+   order: 1;
+}

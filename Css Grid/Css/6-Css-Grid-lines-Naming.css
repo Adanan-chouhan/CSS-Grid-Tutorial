@@ -1,0 +1,49 @@
+.containr{
+    display: grid;
+    background: blanchedalmond;
+    font-size: 30px;
+    width:1000px;
+    padding: 30px;
+    margin: 30px;
+    grid-template-columns:repeat(3,[col-start] 1fr [col-end]);
+    grid-template-rows:[Header-start]200px[Header-end Menu-start]100px[Menu-end box-start]200px[box-end  content-start] 400px[content-end footer-start] 80px [footer-end] ;
+   grid-gap: 20px 30px; 
+}
+.Header{
+   background: green;
+   grid-row: Header-start/Header-end ;/* grid spaninig*/
+   grid-column: col-start 1/col-end 3;/* grid spaninig*/
+   
+}
+.Menu{
+   background:pink;
+   grid-row: Menu-start/Menu-end;
+   grid-column: col-start 1/col-end 3;
+   
+}
+.box1{
+   background : darkseagreen;  
+   grid-row: box-start/box-end;
+   grid-column: col-start 1/col-end -3;
+}
+.box2{
+  background: aqua;
+  grid-row: box-start/box-end;
+   grid-column: col-start 2/col-end 1;
+
+}
+.content{
+  background:burlywood;
+  grid-row: content-start/content-end;
+   grid-column: col-start 1/col-end 2;
+}
+.sidebar{
+ background: red;
+ grid-row: box-start/content-end;
+   grid-column: col-start 3/col-end -1;
+}
+.footer{
+    background: orangered;
+    grid-row: footer-start/footer-end;
+   grid-column: col-start 1/col-end -1;
+}

@@ -1,0 +1,36 @@
+.containr{
+    display: grid;
+    background: blanchedalmond;
+    font-size: 30px;
+    width:80%;
+    padding: 30px;
+    margin: 30px;
+    grid-template-columns:minmax(150px,1fr) 1fr 1fr min-content;
+    grid-template-rows:minmax(150,min-content) ;
+    grid-gap: 5px;
+}
+.One{
+   background: green; 
+}
+.Two{
+   background:pink; 
+}
+.Three{
+   background : darkseagreen;  
+}
+.Four{
+   background: darkslategray;
+}
+.Five{
+  background: aqua;
+
+}
+.Six{
+    background: red;
+}
+.Sevan{
+    background:blueviolet;
+}
+.Eight{
+    background: orangered;
+}

@@ -1,0 +1,33 @@
+.containr{
+    display: grid;
+    background: blanchedalmond;
+    font-size: 30px;
+    width:700px;
+    margin: 30px;
+    padding: 30px;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(2,120px);
+    grid-gap: 20px;
+
+}
+.One{
+   background: green;
+}
+.Two{
+   background:pink;
+}
+.Three{
+   background : darkseagreen;  
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 5px;
+
+}
+
+.Three div{
+    background: white;
+
+}
+.Four{
+   background: darkslategray;
+}

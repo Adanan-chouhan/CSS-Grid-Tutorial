@@ -1,0 +1,28 @@
+.containr{
+    display: grid;
+    background: blanchedalmond;
+    font-size: 30px;
+    width:700px;
+    margin: 30px;
+    grid-template-columns:fit-content(200px) fit-content(300px) 1fr ;
+    grid-template-rows:repeat(2,minmax(150px,min-content));
+}
+.One{
+   background: green; 
+}
+.Two{
+   background:pink;
+}
+.Three{
+   background : darkseagreen;  
+}
+.Four{
+   background: darkslategray;
+}
+.Five{
+  background: aqua;
+
+}
+.Six{
+    background: red;
+}
